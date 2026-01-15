@@ -1,0 +1,73 @@
+**/.DS_Store
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# =========================
+# Airflow
+# =========================
+airflow_home/logs/
+airflow_home/airflow.db*
+airflow_home/airflow.cfg
+airflow_home/webserver_config.py
+
+# =========================
+# MLflow
+# =========================
+mlruns/
+mlflow.db
+models/
+
+# =========================
+# Data files
+# =========================
+data/*.csv
+data/*.parquet
+data/*.pkl
+data/*.txt
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# PyCaret temp files
+# =========================
+pycaret_logs/
+*.joblib
+*.pkl
+
+# =========================
+# Secrets
+# =========================
+.env
+*.key
+*.pem
