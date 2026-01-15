@@ -32,14 +32,6 @@ mlflow.db
 models/
 
 # =========================
-# Data files
-# =========================
-data/*.csv
-data/*.parquet
-data/*.pkl
-data/*.txt
-
-# =========================
 # Logs
 # =========================
 logs/
